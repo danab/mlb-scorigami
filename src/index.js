@@ -18,7 +18,6 @@ const typography = new Typography({
     'sans-serif'
   ],
   bodyFontFamily: ['Georgia', 'serif']
-  // See below for the full list of options.
 });
 
 typography.injectStyles();
@@ -33,4 +32,4 @@ render(
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: http://bit.ly/CRA-PWA
-serviceWorker.unregister();
+serviceWorker.register();
