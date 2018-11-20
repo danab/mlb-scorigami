@@ -1,5 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
+import { Router } from '@reach/router';
 import './index.css';
 import Typography from 'typography';
 import App from './App';
@@ -21,7 +22,13 @@ const typography = new Typography({
 });
 
 typography.injectStyles();
-ReactDOM.render(<App />, document.getElementById('root'));
+
+render(
+  <Router>
+    <App path="/t" />
+  </Router>,
+  document.getElementById('root')
+);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
