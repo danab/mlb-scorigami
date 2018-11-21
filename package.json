@@ -13,7 +13,6 @@
     "react-scripts": "2.1.1"
   },
   "dependencies": {
-    "@reach/router": "^1.2.1",
     "d3": "^5.7.0",
     "rc-slider": "^8.6.3",
     "react": "^16.6.1",

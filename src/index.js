@@ -1,6 +1,5 @@
 import React from 'react';
 import { render } from 'react-dom';
-import { Router } from '@reach/router';
 import './index.css';
 import Typography from 'typography';
 import App from './App';
